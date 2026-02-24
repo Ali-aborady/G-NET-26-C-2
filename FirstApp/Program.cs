@@ -292,6 +292,24 @@
             */
             #endregion
 
+            #region Question 14: Common Built-in Exceptions
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 14: COMMON BUILT-IN EXCEPTIONS
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: List and explain five common built-in exceptions in C# with 
+            //    scenarios when each would occur.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+
+            // Exception                         When it occurs
+            // FormatException                   Invalid format (parsing "abc" as int)
+            // DivideByZeroException             Dividing by zero
+            // NullReferenceException            Accessing null object
+            // IndexOutOfRangeException          Array index out of bounds
+            // FileNotFoundException             File doesn't exist
+
+            #endregion
 
         }
     }
