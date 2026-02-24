@@ -66,6 +66,29 @@
             */
             #endregion
 
+            #region Question 4: Class-level vs Method-level Scope
+
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 4: CLASS-LEVEL VS METHOD-LEVEL SCOPE
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Explain the difference between class-level scope and method-level 
+            //    scope with examples.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            //Class level scope :-
+            ///Variables declared inside the class but outside any method. 
+            ///Can be accessed by all methods in the class.
+
+            //Method - Level Scope
+            ///Variables declared inside a method. 
+            ///Can only be accessed within that specific method.
+
+
+
+            #endregion
+
+
         }
     }
 }
