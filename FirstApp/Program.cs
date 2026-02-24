@@ -266,6 +266,33 @@
 
             #endregion
 
+            #region Question 13: try-catch-finally
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 13: TRY-CATCH-FINALLY
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Write a code example demonstrating try-catch-finally. Explain when 
+            //    the finally block executes.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            /*
+            try
+            {
+                int num = int.Parse("abc");
+                Console.WriteLine(num);
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("invalid number format");
+            }
+            finally
+            {
+                Console.WriteLine("always execute with or without exception");
+            }
+            */
+            #endregion
+
+
         }
     }
 }
