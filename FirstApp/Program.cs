@@ -229,6 +229,19 @@
             */
             #endregion
 
+            #region Question 11: Error Types
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 11: ERROR TYPES
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Compare and contrast syntax errors, runtime errors, and logical 
+            //    errors. Provide an example of each.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            // Syntax Error    Code breaks language rules          int x = "hello";
+            // Runtime Error   Happens while program runs          Dividing by zero: 10 / 0
+            // Logical Error   Code runs but gives wrong result    Using + instead of * in calculation
+            #endregion
 
         }
     }
