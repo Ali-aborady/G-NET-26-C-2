@@ -409,6 +409,26 @@
             name2 = "aborady";     // also, name1 = aborady
             #endregion
 
+            #region Question 19: Object in C#
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 19: OBJECT IN C#
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Why is 'object' considered the base type of all types in C#? 
+            //    What methods does every type inherit from System.Object?
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            // Every type in C# inherits from System.Object (even int, string, custom classes)
+
+            //Enables polymorphism across all types
+            //Methods every type inherits:
+
+            //ToString()        String representation
+            //Equals()          Compare objects
+            //GetHashCode()     Hash value for collections
+            //GetType()         Get object's type info
+            #endregion
+
 
 
         }
