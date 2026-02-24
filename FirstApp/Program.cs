@@ -20,7 +20,31 @@
             */
             #endregion
 
-           
+            #region Question 2: Variable Declaration -Explicit vs Implicit
+            /*
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 2: VARIABLE DECLARATION - EXPLICIT VS IMPLICIT
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: What is the difference between explicit and implicit variable 
+            //    declaration in C#? Provide examples of both.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+
+
+
+            // EXPLICIT DECLARATION 
+                 /// specify the data type yourself & Can declare without initializing
+
+            int num = 10;
+            string name = "Ali";
+
+            // IMPLICIT DECLARATION 
+                 ///compiler determine the type & Must initialize when declaring
+            var num2 = 20;
+            var name2 = "Ali";
+            */
+            #endregion
 
 
         }
