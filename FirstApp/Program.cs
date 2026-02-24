@@ -212,6 +212,24 @@
             //Cannot start with a digit
             #endregion
 
+            #region Question 10: Naming Conventions
+            // 
+            // QUESTION 10: NAMING CONVENTIONS
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: What naming conventions are recommended for:
+            //    (a) local variables,
+            //    (b) class names, 
+            //    (c) constants?
+            // ══════════════════════════════════════════════════════════════════════
+            /*
+             Local variables   camelCase (starts lowercase)
+             Class names       PascalCase (starts uppercase)
+             Constants         PascalCase (starts uppercase)
+            */
+            #endregion
+
+
         }
     }
 }
