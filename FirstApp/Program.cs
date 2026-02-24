@@ -120,6 +120,36 @@
             #endregion
 
 
+            #region Question 6: Variable Lifetime - Local vs Static
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 6: VARIABLE LIFETIME - LOCAL VS STATIC
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: What is variable lifetime? Explain the lifetime of local variables 
+            //    vs static variables.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            //Local Variables :- Created when method is called , Destored when method exits
+            //   & New copy created each method call
+
+            //Static Variables :- Created when program starts , lives until program end
+            //   & One copy shared across all instances
+            /*
+             public class Counter
+             {
+                 static int staticCount = 0;  
+                 int localCount;               
+
+                 public void ShowCount()
+                 {
+                     int localVar = 5;         
+                     staticCount++;
+                     Console.WriteLine(staticCount);  
+                 }
+             }
+            */
+            #endregion
+
         }
     }
 }
