@@ -341,6 +341,36 @@
             */
             #endregion
 
+            #region Question 16: throw Keyword
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 16: THROW KEYWORD
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: What is the difference between 'throw' and 'throw ex' when 
+            //    re-throwing an exception? Which one preserves the stack trace?
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            /*
+            // throw;       Preserves original stack trace 
+            // throw ex;    Resets stack trace to this point , so avoid this throw
+
+            try
+            {
+                //  code may be  error occur
+            }
+            catch (FormatException ex)
+            {
+                throw;   // keep orginal error location
+            }
+            catch (Exception ex)
+            {
+                throw ex; // loses orginal error location
+            }
+            */
+            #endregion
+
+
+
         }
     }
 }
