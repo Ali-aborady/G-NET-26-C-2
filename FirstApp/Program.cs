@@ -369,6 +369,24 @@
             */
             #endregion
 
+            #region Question 17: Stack and Heap Memory
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 17: STACK AND HEAP MEMORY
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Explain the differences between Stack and Heap memory in C#. 
+            //    What types of data are stored in each?
+            //
+            // ══════════════════════════════════════════════════════════════════════
+
+            //Stack 
+            //Stores value types , Automatic cleanup ,  
+            //Fast access , Method calls and local variables , Limited size 
+
+            //Heap
+            //Stores reference types , Garbage collector cleans, 
+            //Slower access , Objects and arrays , Large size
+            #endregion
 
 
         }
