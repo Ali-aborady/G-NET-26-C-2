@@ -150,6 +150,28 @@
             */
             #endregion
 
+            #region Question 7: Garbage Collector
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 7: GARBAGE COLLECTOR
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: What is the Garbage Collector in C#? How does it affect the 
+            //    lifetime of objects?
+            //
+            // ══════════════════════════════════════════════════════════════════════
+
+            //Garbage Collector (GC) automatically manages memory by:-
+
+            //Finding objects no longer in use
+            //Freeing the memory they occupied
+            //How it affects object lifetime:
+            //Objects live as long as something references them
+            //GC destroys objects when no references exist
+            //You can't predict exactly when GC will run
+
+            #endregion
+
+
         }
     }
 }
