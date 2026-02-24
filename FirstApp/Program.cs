@@ -88,6 +88,37 @@
 
             #endregion
 
+            #region Question 5: Block-level Scope
+            /*
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 5: BLOCK-LEVEL SCOPE
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: What is block-level scope? Give an example showing a variable that 
+            //    is only accessible within a specific block.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+                 //Block - level scope means a variable is only accessible within the { }
+                 //braces where it's declared.
+            
+
+            public void method()
+            {
+                int x = 10;  // Method-level scope
+
+                if (x > 5)
+                {
+                    int y = 20;  // Block-level scope - only in this if block
+                    Console.WriteLine(x);  
+                    Console.WriteLine(y);   
+                }
+
+                Console.WriteLine(x);  
+                //Console.WriteLine(y);  // error 
+            }
+            */
+            #endregion
+
 
         }
     }
