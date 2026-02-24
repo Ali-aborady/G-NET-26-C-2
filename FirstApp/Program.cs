@@ -243,6 +243,29 @@
             // Logical Error   Code runs but gives wrong result    Using + instead of * in calculation
             #endregion
 
+            #region Question 12: Exception Handling Importance
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 12: EXCEPTION HANDLING IMPORTANCE
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Why is exception handling important in C#? What would happen if 
+            //    you don't handle exceptions?
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            //Why important:
+            //Prevents program crashes
+            //Allows graceful error recovery
+            //Provides meaningful error messages
+            //Protects data integrity
+
+            //Without exception handling:
+            //Program crashes immediately
+            //Users lose unsaved work
+            //Bad user experience 
+            //No chance to clean up resources
+
+            #endregion
+
         }
     }
 }
