@@ -171,6 +171,30 @@
 
             #endregion
 
+            #region Question 8: Variable Shadowing
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 8: VARIABLE SHADOWING
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: What is variable shadowing in C#? Does C# allow shadowing in 
+            //    nested blocks within the same method?
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            // Variable shadowing :- declaring a new variable with the same name as one in an outer scope.
+
+            /*public void Example()
+            {
+               int x = 10;  // Outer variable
+
+               if (true)
+               {
+                   int x = 20;  // ERROR, Can't shadow x in same method
+               }
+            }
+            */
+
+            //But shadowing is allowed between class-level and method-level.
+            #endregion
 
         }
     }
