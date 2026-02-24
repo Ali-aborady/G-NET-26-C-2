@@ -311,6 +311,36 @@
 
             #endregion
 
+            #region Question 15: Multiple catch Blocks
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 15: MULTIPLE CATCH BLOCKS
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Why is the order of catch blocks important when handling multiple 
+            //    exceptions? Write code showing correct ordering.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            /*
+            //Order is important - catch more specific exceptions first, general last:
+            try
+            {
+                //  code may be  error occur
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("invalid formating");
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine("cannot divide by zero");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("some error occured");
+            }
+            */
+            #endregion
+
         }
     }
 }
