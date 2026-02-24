@@ -196,6 +196,22 @@
             //But shadowing is allowed between class-level and method-level.
             #endregion
 
+
+            #region Question 9: C# Naming Rules
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 9: C# NAMING RULES
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: List five rules that must be followed when naming variables in C#.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            //Must start with a letter or underscore(_)
+            //Can contain letters, digits, underscore - no spaces
+            //Cannot be a C# keyword (like int, class, if)
+            //Case sensitive (myVar != MyVar)
+            //Cannot start with a digit
+            #endregion
+
         }
     }
 }
