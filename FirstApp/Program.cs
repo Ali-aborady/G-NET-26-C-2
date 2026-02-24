@@ -46,6 +46,25 @@
             */
             #endregion
 
+            #region Question 3: Constants
+            /*
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 3: CONSTANTS
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Write the syntax for declaring a constant in C#. Why would you use 
+            //    a constant instead of a regular variable?
+            //
+            // ══════════════════════════════════════════════════════════════════════
+            //Value never changes --> Prevents accidental modification
+            //Better performance --> Value is replaced at compile time
+            //Self - documenting - Makes it clear the value is fixed
+            //Memory efficient -No memory allocated at runtime
+
+            const double PI = 3.14;
+            const string AppName = "C#_Basics01";
+            */
+            #endregion
 
         }
     }
