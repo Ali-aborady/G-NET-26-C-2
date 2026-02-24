@@ -388,6 +388,28 @@
             //Slower access , Objects and arrays , Large size
             #endregion
 
+            #region Question 18: Value Types vs Reference Types
+            // ══════════════════════════════════════════════════════════════════════
+            // QUESTION 18: VALUE TYPES VS REFERENCE TYPES
+            // ══════════════════════════════════════════════════════════════════════
+            //
+            // Q: Write a code example showing how value types and reference types 
+            //    behave differently when assigned to another variable.
+            //
+            // ══════════════════════════════════════════════════════════════════════
+
+            // Value Type (int)
+            int a = 10;
+            int b = a;  // Copies VALUE
+            b = 20;     // a still = 10, b = 20
+
+            // reference type (string)
+            string name1 = "ali";
+            string name2 = name1;  // copies reference
+            name2 = "aborady";     // also, name1 = aborady
+            #endregion
+
+
 
         }
     }
